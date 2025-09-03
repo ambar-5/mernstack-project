@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+.inline{
+    /*display: inline;inline par height jesi property work nahi karengi*/
+    display: inline-block;
+    background-color: bisque;
+    height: 200px;
+}
+.circle1{
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    align-items: center;
+    position: fixed;
+    left: 400px;
+}
+.circle2{
+    background-color: rgb(66, 122, 122);
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    align-items: center;
+    position: absolute;
+    
+}
+.circle3{
+    background-color: rgb(2, 56, 56);
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    align-items: center;
+    position: relative;
+    
+}
+.circle{
+    background-color: aquamarine;
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    align-items: center;
+}
+.container2{
+    width: 300px;
+  height: 200px;
+  background: rgb(0, 0, 0);
+  position: relative;
+}
+.circle5{
+     width: 80px;
+  height: 80px;
+  background: tomato;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;   
+  top: 50%;  
+  transform: translateY(-50%);
+}

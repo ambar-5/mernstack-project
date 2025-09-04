@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+
+}
+nav{
+    
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgb(55, 152, 244);
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around; 
+    align-items: center; 
+    padding: 10px;
+}
+#nbar{
+    text-decoration: none;
+    margin: 0 20px;          
+    font-size: 18px;  
+
+}
+#search{
+    height: 24px;
+    border-radius: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+    
+    
+}
+#i img {
+    height: 100px; /* make it square */
+    width: 100px;
+    border-radius: 50%; /* makes it circular */
+    border: 3px solid white; /* optional border */
+    object-fit: cover; /* ensures image covers circle nicely */
+    transition: transform 0.3s;
+}
